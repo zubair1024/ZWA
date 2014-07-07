@@ -8,7 +8,7 @@
 ########  #######  ########  ##     ## #### ##     ##    ##     ## ##     ## ##     ## ######## ######## 
 */
 body{
-    padding-top: 70px;
+    padding-top: 55px;
 }
 .cuscontainer
 {
@@ -24,4 +24,14 @@ footer{
     border-top: 1px solid #ddd;
     color: #999;
     text-align: center;
+}
+.tab-pane{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0.8em;
+}
+
+.active gyphicon{
+    color: #000;
 }

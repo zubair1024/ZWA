@@ -15,6 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
         <script src="js/respond.js"></script>
     </head>
 
@@ -37,7 +38,7 @@
                     <img src="http://placehold.it/350x150" alt="">
                 </div>
             </header>
-<ol class="breadcrumb">
+            <ol class="breadcrumb">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="02_03.html">PAGE 3</a></li>
             </ol>
@@ -47,6 +48,35 @@
                     <h1>Services</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem. Nulla ac enim sit amet ipsum adipiscing euismod sed ac nibh. Quisque aliquet dui in neque facilisis, consequat dignissim tellus venenatis.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem. Nulla ac enim sit amet ipsum adipiscing euismod sed ac nibh. Quisque aliquet dui in neque facilisis, consequat dignissim tellus venenatis.</p>
+
+                    <!-- list navigation for tabs -->
+
+                    <ul class="nav nav-tabs">
+                        <li><a href="#id1" data-toggle="tab"><span class="glyphicon glyphicon-barcode"></span> Lorem ipsum</a></li>
+                        <li><a href="#id2" data-toggle="tab"><span class="glyphicon glyphicon-ok"></span> Lorem ipsum</a></li>
+                        <li><a href="#id3" data-toggle="tab"><span class="glyphicon glyphicon-heart"></span> Lorem ipsum</a></li>
+                        <li><a href="#id4" data-toggle="tab"><span class="glyphicon glyphicon-bell"></span> Lorem ipsum</a></li>
+                    </ul>   
+
+                    <!-- text for each callout -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade active in" id="id1">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem.</p>
+                            <p><a href="#" class="btn btn-info">Read more >></a></p>
+                        </div>
+                        <div class="tab-pane fade" id="id2">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem. </p>
+                            <p><a href="#" class="btn btn-info">Read more >></a></p>
+                        </div>
+                        <div class="tab-pane fade" id="id3">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem. </p>
+                            <p><a href="#" class="btn btn-info">Read more >></a></p>
+                        </div>
+                        <div class="tab-pane fade" id="id4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem. </p>
+                            <p><a href="#" class="btn btn-info">Read more >></a></p>
+                        </div>
+                    </div>
                 </article>
                 <aside class="col-lg-3 col-sm-4 col-lg-pull-9 col-sm-pull-8 col-lg-offset-1 col-sm-offset-1">
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -58,7 +88,7 @@
             </div>
 
 
-
+ 
             <!-- row 4 -->
             <footer class="row">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -70,5 +100,10 @@
         <!-- javascript -->
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script>
+            $(function() {
+                $('.nav-tabs a:first').tab('show');
+            });
+        </script>
     </body>
 </html>
