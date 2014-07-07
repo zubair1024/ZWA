@@ -62,19 +62,19 @@
                     <div class="tab-content">
                         <div class="tab-pane fade active in" id="id1">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem.</p>
-                            <p><a href="#" class="btn btn-info">Read more >></a></p>
+                            <p><a href="#" class="btn btn-info" data-toggle="tooltip" title="Read more about Lorem ipsum">Read more >></a></p>
                         </div>
-                        <div class="tab-pane fade" id="id2">
+                        <div class="tab-pane fade" id="id2" data-toggle="tooltip" title="Read more about Lorem ipsum">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem. </p>
                             <p><a href="#" class="btn btn-info">Read more >></a></p>
                         </div>
-                        <div class="tab-pane fade" id="id3">
+                        <div class="tab-pane fade" id="id3" data-toggle="tooltip" title="Read more about Lorem ipsum">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem. </p>
-                            <p><a href="#" class="btn btn-info">Read more >></a></p>
+                            <p><a href="#" class="btn btn-info" data-toggle="tooltip" title="Read more about Lorem ipsum">Read more >></a></p>
                         </div>
                         <div class="tab-pane fade" id="id4">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non. Fusce quis aliquet dui. Phasellus sed elit vestibulum, pulvinar urna non, consectetur nunc. Donec eu nunc sem. </p>
-                            <p><a href="#" class="btn btn-info">Read more >></a></p>
+                            <p><a href="#" class="btn btn-info" data-toggle="tooltip" title="Read more about Lorem ipsum">Read more >></a></p>
                         </div>
                     </div>
 
@@ -91,7 +91,7 @@
                             <div id="id_1" class="panel-collapse collapse in">
                                 <div class="panel-body">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non.</p>
-                                    <p><a href="#" class="btn btn-info">Read more >></a></p>
+                                    <p><a href="#" class="btn btn-info" data-toggle="tooltip" title="Read more about Lorem ipsum">Read more >></a></p>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                             <div id="id_2" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non.</p>
-                                    <p><a href="#" class="btn btn-info">Read more >></a></p>
+                                    <p><a href="#" class="btn btn-info" data-toggle="tooltip" title="Read more about Lorem ipsum">Read more >></a></p>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +120,7 @@
                             <div id="id_3" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non.</p>
-                                    <p><a href="#" class="btn btn-info">Read more >></a></p>
+                                    <p><a href="#" class="btn btn-info" data-toggle="tooltip" title="Read more about Lorem ipsum">Read more >></a></p>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@
                             <div id="id_4" class="panel-collapse collapse">
                                 <div class="panel-body">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas ligula nec euismod consequat. Cras rutrum convallis enim, sed euismod massa suscipit ac. Nunc auctor accumsan tortor, eget convallis mauris blandit non.</p>
-                                    <p><a href="#" class="btn btn-info">Read more >></a></p>
+                                    <p><a href="#" class="btn btn-info" data-toggle="tooltip" title="Read more about Lorem ipsum">Read more >></a></p>
                                 </div>
                             </div>
                         </div>
@@ -172,6 +172,9 @@
             $(function() {
                 $('.nav-tabs a:first').tab('show');
             });
+        </script>
+        <script>
+            $('a.btn-info').tooltip()
         </script>
     </body>
 </html>
